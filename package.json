@@ -1,0 +1,21 @@
+{
+  "name": "threejs-pwa-vr",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "lil-gui": "^0.16.1",
+    "mapbox-gl": "^2.10.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.140.2",
+    "toastify-js": "^1.12.0"
+  }
+}
