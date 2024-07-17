@@ -5,7 +5,7 @@ import mapboxgl from "mapbox-gl";
 export default class Map {
   constructor() {
     // Initial origin before Location services takes over
-    this.origin = [-75.1633695, 39.9461218];
+    this.origin = [39.652841, 66.973829];
 
     mapboxgl.accessToken =
       "pk.eyJ1Ijoia21lcmluc2t5IiwiYSI6ImNsOXByazlhYTA2dmMzd2xtaWRyempoczEifQ.KJIqLZQiYdwQyC3aLW_suw";
