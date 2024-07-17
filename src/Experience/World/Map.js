@@ -5,7 +5,7 @@ import mapboxgl from "mapbox-gl";
 export default class Map {
   constructor() {
     // Initial origin before Location services takes over
-    this.origin = [-75.1633695, 39.9461218];
+    this.origin = [39.652754682218855, 66.9738275248678];
 
     mapboxgl.accessToken =
       "pk.eyJ1Ijoia21lcmluc2t5IiwiYSI6ImNsOXByazlhYTA2dmMzd2xtaWRyempoczEifQ.KJIqLZQiYdwQyC3aLW_suw";
@@ -19,7 +19,7 @@ export default class Map {
       style: "mapbox://styles/kmerinsky/cl9ptfb9i001r14nrrqphvroa",
     });
     this.marker = new mapboxgl.Marker({ color: "#d22630" });
-    this.marker.setLngLat([39.652841, 66.973829]);
+    this.marker.setLngLat([39.652754682218855, 66.9738275248678]);
 
     this.marker.addTo(this.map);
     this.person = new mapboxgl.Marker({ color: "#999999" });
