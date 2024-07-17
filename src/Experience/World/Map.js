@@ -19,7 +19,7 @@ export default class Map {
       style: "mapbox://styles/kmerinsky/cl9ptfb9i001r14nrrqphvroa",
     });
     this.marker = new mapboxgl.Marker({ color: "#d22630" });
-    this.marker.setLngLat([39.652754682218855, 66.9738275248678]);
+    this.marker.setLngLat([39.653404, 66.973754]);
 
     this.marker.addTo(this.map);
     this.person = new mapboxgl.Marker({ color: "#999999" });
